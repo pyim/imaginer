@@ -9,8 +9,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" >
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -38,8 +42,8 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary">
-            <strong>Contactez nous</strong>
+          <a class="menu-link">
+           Contactez nous
           </a>
          
         </div>
@@ -62,7 +66,8 @@
 						<div class="content intro-text">
 									<h1 class="title">Pour que le virtuel devienne réalité.</h1>
 									<p class="is-size-5">
-										Service numérique dédiée à l’innovation, à la formation et au développement de la culture numérique.<span> La société regroupe 4 marques : </span>
+										Service numérique dédiée à l’innovation, à la formation et au développement de la culture numérique.
+                                        <br><span style="text-decoration: underline; font-size: 0.9em"> La société regroupe 4 marques : </span>
 									</p>
 								</div>
 					</div>
@@ -88,18 +93,14 @@
 			<div class="container">
                  <div class="columns">
 					<div class="column">
-						<article class="media notification bgimage" style="background-image:
+						<article class="media notification bgimage animation" style="background-image:
                                     linear-gradient(rgba(0,242,96,0.7),
                                                    rgba(0,242,96,0.7)
                                                     ), url(resources/images/imaginelab.jpeg)">
-							<figure class="media-left">
-								<span class="icon is-medium">
-									<i class="fas fa-2x fa-align-justify"></i>
-								</span>
-							</figure>
+							
 							<div class="media-content">
 								<div class="content">
-									<h1 class="title is-size-4">I-magineLab</h1>
+									<h1 class="title is-size-3">I-magineLab</h1>
 									<p class="is-size-5">
 										Nouveau lieu dans le 17ème arrondissement de Paris qui propose aux jeunes de 6 à 16 ans de se former au numérique de manière créative et éclairée.
 									</p>
@@ -110,15 +111,11 @@
 						</article>
 					</div>
 					<div class="column">
-						<article class="media notification is-link">
-							<figure class="media-left">
-								<span class="icon is-medium">
-									<i class="fas fa-2x fa-align-justify"></i>
-								</span>
-							</figure>
+						<article class="media notification is-link animation">
+							
 							<div class="media-content">
 								<div class="content">
-									<h1 class="title is-size-4">OpenSpace3D</h1>
+									<h1 class="title is-size-3">OpenSpace3D</h1>
 									<p class="is-size-5">
                                          Le pôle Recherche et Développement dans les domaines de la Réalité virtuelle et de la Réalité Augmentée.
 									</p>
@@ -136,19 +133,15 @@
                 
                <div class="columns">
 					<div class="column">
-						<article class="media notification is-warning">
-<figure class="media-left">
-								<span class="icon is-medium">
-									<i class="fas fa-2x fa-align-justify"></i>
-								</span>
-							</figure>
+						<article class="media notification is-warning animation">
+
 							<div class="media-content">
 								<div class="content">
-									<h1 class="title is-size-4">Formao</h1>
+									<h1 class="title is-size-3">Formao</h1>
 									<p class="is-size-5">
 										Notre plateforme de formation à distance tutorée permettant une individualisation des parcours, une progression au rythme de chacun, un accompagnement individualisé par nos formateurs. 
 									</p>
-                                    <a href="http://www.formao.fr" target="_blank" title="formao">Découvrir →</a>
+                                    <a href="https://cours.formao.fr" target="_blank" title="formao">Découvrir →</a>
 
                                       <div class="screenshot">
                                         <img src="resources/images/formao.png" alt="formao">
@@ -158,19 +151,15 @@
 						</article>
 					</div>
 					<div class="column">
-						<article class="media notification bgimage" style="background-image:
+						<article class="media notification bgimage animation" style="background-image:
                                     linear-gradient(rgba(255,172,252,0.8),
                                                     rgba(255,170, 0,0.6)
                                                     ), 
                                                      url(resources/images/arinfo.jpg)">
-							<figure class="media-left">
-								<span class="icon is-medium">
-									<i class="fas fa-2x fa-align-justify"></i>
-								</span>
-							</figure>
+		
 							<div class="media-content">
 								<div class="content">
-									<h1 class="title is-size-4">Arinfo</h1>
+									<h1 class="title is-size-3">Arinfo</h1>
 									<p class="is-size-5">
 										Le pôle formation continue et apprentissage dédié aux métiers de l’architecture et du bâtiment, de l’infographie et du design, du web et du numérique. Nos formations sont diplômantes (titres professionnels RNCP) ou certifiantes (TOSA, PCIE).
 									</p>
@@ -196,7 +185,9 @@
         
         <footer class="footer">
             <p style="text-align: center">
-               I-maginer</p>
+             <script type="text/javascript">
+  document.write(new Date().getFullYear());
+</script>  I-maginer | <a href="/" title="mention légale" style="color: #324251">Mention légale</a></p>
         </footer>
 </body>
 

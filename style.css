@@ -1,3 +1,29 @@
+body {
+    color:#324251;
+    font-family: "Lato"
+    
+}
+
+.title {
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+p {
+    line-height: 1.7;
+    margin: 0;
+    font-weight: 400;
+}
+
+.menu-link {
+    color: #324251;
+    text-decoration: none;
+}
+
+.media {
+    box-shadow: 0 11px 35px 0 rgba(33,44,52,.2);
+    border-radius: 10px;
+}
 
 .screenshot {
  margin-top: 2rem
@@ -24,3 +50,16 @@
     font-size: 4em;
     color: #324251
 }
+
+.animation {
+        transition: all 0.5s;
+}
+
+.animation:hover {
+    transform: translateY(-8px);
+}
+
+footer {
+   padding:1rem 1.5rem 1rem !important;
+}
+
