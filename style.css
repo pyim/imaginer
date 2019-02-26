@@ -1,19 +1,26 @@
-.intro {
- background-image: url(resources/images/intro.png);
- background-position: right;
- background-repeat: no-repeat;
- height: 800px;
-}
-
 
 .screenshot {
  margin-top: 2rem
 }
 
+.banniere {
+    height: 600px
+}
+
 .bgimage {
+    
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
     height: 100%;
     color: #fff;
+}
+
+.intro-text {
+    margin-top : 10%
+}
+
+.intro-text h1 {
+    font-size: 4em;
+    color: #324251
 }
