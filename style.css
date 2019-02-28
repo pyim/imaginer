@@ -20,7 +20,6 @@ p {
 }
 
 .media {
-    box-shadow: 0 11px 35px 0 rgba(33,44,52,.2);
     border-radius: 10px;
 }
 
@@ -51,11 +50,13 @@ p {
 }
 
 .animation {
-        transition: all 0.5s;
+        transition:all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+        box-shadow: 0 1px 1px rgba(0,0,0,0.2);
 }
 
 .animation:hover {
     transform: translateY(-8px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2)
 }
 
 footer {
